@@ -23,6 +23,9 @@ public class TicketServiceImpl implements TicketService {
 		if(isBooked) {
 			resultMap.put("message","Successfully booked your Ticket");
 			resultMap.put("status", "Success");
+		}else {
+			resultMap.put("message","Sorry for the inconvenience, your request tickets are unavailable");
+			resultMap.put("status", "Failiure");
 		}
 		return resultMap;
 	}
