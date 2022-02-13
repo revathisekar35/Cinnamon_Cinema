@@ -1,5 +1,6 @@
 package com.techreturners.cc.seat.service;
 
-public class SeatService {
+public interface SeatService {
+	boolean isSeatAvailable(String setNo);
 
 }
