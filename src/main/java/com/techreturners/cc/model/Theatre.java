@@ -1,9 +1,9 @@
-package com.techreturners.cc.theatre.model;
+package com.techreturners.cc.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.techreturners.cc.movie.model.Movie;
+import com.techreturners.cc.model.Movie;
 
 public class Theatre {
 	int id;

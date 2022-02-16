@@ -1,6 +1,5 @@
-package com.techreturners.cc.movie.model;
+package com.techreturners.cc.model;
 
-import com.techreturners.cc.theatre.model.Theatre;
 
 public class Movie {
 	int id;

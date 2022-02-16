@@ -1,8 +1,8 @@
-package com.techreturners.cc.ticket.model;
+package com.techreturners.cc.model;
 
 import java.util.List;
 
-import com.techreturners.cc.seat.model.Seat;
+
 
 public class Ticket {
 	int id;

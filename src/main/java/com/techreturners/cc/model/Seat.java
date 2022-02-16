@@ -1,6 +1,6 @@
-package com.techreturners.cc.seat.model;
+package com.techreturners.cc.model;
 
-import com.techreturners.cc.movie.model.Movie;
+import com.techreturners.cc.model.Movie;
 
 public class Seat {
 	int id;
