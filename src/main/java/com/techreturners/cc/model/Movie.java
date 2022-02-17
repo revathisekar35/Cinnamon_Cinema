@@ -2,10 +2,10 @@ package com.techreturners.cc.model;
 
 
 public class Movie {
-	int id;
-	String name;
-	int totalNoOfSeats;
-	Theatre theatre;
+	private int id;
+	private String name;
+	private int totalNoOfSeats;
+	private Theatre theatre;
 
 	public Movie(int id, String name, int totalNoOfTickets, Theatre theatre) {
 		this.id = id;

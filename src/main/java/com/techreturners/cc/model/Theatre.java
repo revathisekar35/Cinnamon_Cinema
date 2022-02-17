@@ -6,9 +6,9 @@ import java.util.List;
 import com.techreturners.cc.model.Movie;
 
 public class Theatre {
-	int id;
-	String name;
-	List<Movie> movies = new ArrayList<Movie>();
+	private int id;
+	private String name;
+	private List<Movie> movies = new ArrayList<Movie>();
 
 	public Theatre(int id, String name) {
 		this.id = id;

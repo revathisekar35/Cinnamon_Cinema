@@ -5,8 +5,8 @@ import java.util.List;
 
 
 public class Ticket {
-	int id;
-	int movieId;
+	private int id;
+	private int movieId;
 	List<Seat> noOfSeat;
 
 	public int getId() {

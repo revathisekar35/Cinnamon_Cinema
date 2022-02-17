@@ -3,11 +3,11 @@ package com.techreturners.cc.model;
 import com.techreturners.cc.model.Movie;
 
 public class Seat {
-	int id;
-	String seatNumber;
-	char row;
-	Movie movie;
-	boolean isBooked = false;
+	private int id;
+	private String seatNumber;
+	private char row;
+	private Movie movie;
+	private boolean isBooked = false;
 
 	public Seat(int id, String seatNumber, char row, Movie movie) {
 		this.id = id;
