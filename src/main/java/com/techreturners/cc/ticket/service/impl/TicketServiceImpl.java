@@ -44,10 +44,12 @@ public class TicketServiceImpl implements TicketService {
 			Map<String, String> seatInfo = seatService.getAvailableSeatInfo(noOfTicket, totalSeats);
 			if (seatInfo.containsKey("AvailableSeats")) {
 				resultMap.put("message", "Successfully booked your Ticket for " + seatInfo.get("AvailableSeats"));
+				resultMap.put("BookedSeats", seatInfo.get("AvailableSeats"));
 				resultMap.put("status", "Success");
 			} else {
 				resultMap.put("message", "Sorry for the inconvenience request number tickets are unavailable");
-				resultMap.put("status", "Failiure");
+				resultMap.put("status", "Failure");
+				resultMap.put("BookedSeats", "0");
 
 			}
 		} else {
